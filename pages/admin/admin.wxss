@@ -1,0 +1,26 @@
+/* miniprogram/pages/admin/admin.wxss */
+.admint{
+  margin: 0px;
+  height: 70px;
+  /* display: ;
+  align-items: center;
+  justify-content: center; */
+  background-color: #312e2e
+  
+}
+.img{
+  float: left;
+  margin-left: 10%;
+  background-color: #cccccc;
+  height: 50px;
+  width: 50px;
+  margin-top: 10px;
+
+}
+.lab{
+  float: right;
+  margin-right: 10%;
+  font-size: 30px;
+  text-shadow: 18px;
+  text-align: right;
+}
