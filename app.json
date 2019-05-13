@@ -1,8 +1,6 @@
 {
   "pages": [
-    "pages/admin/admin",
-    "pages/index/index",
-    "pages/logs/logs"
+    "pages/admin/admin"
   ],
   "window": {
     "backgroundTextStyle": "light",

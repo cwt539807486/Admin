@@ -1,7 +1,11 @@
 <!--miniprogram/pages/admin/admin.wxml-->
 <!-- <text>miniprogram/pages/admin/admin.wxml</text> -->
 <view class='admint'>
-
-  <image class='img'></image>
-  <label class='lab'>Admin</label>
+  <view class='img'>
+    <image class=''></image>
+  </view>
+  <view class='lab'>
+    <label class=''>Admin</label>
+  </view>
+  
 </view>
