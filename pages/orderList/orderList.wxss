@@ -45,19 +45,19 @@
 .bus-list .bus-list-item .bus-time {
  position: absolute;
  left: 0;
- width: 134rpx;
+ width: 138rpx;
  height: 100rpx;
- line-height: 100rpx;
+ line-height: 20px;
  margin: 30rpx 0;
- color: #00b358;
+ color: #333333;
  text-align: center;
- font-size: 40rpx;
+ font-size: 11px;
  font-family: Arial;
  border-right: 2rpx dashed #e5e5e5;
 }
 
 .bus-list .bus-list-item .tobooking {
- background-color: #00B358;
+ background-color: #333333;
  position: absolute;
  right: 0;
  width: 120rpx;
@@ -66,6 +66,7 @@
  text-align: center;
  color: #fff;
  font-size: 30rpx;
+ /* font-weight: bold; */
 }
 
 .bus-list .bus-list-item.disabled .tobooking {
