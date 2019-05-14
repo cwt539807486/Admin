@@ -1,4 +1,4 @@
-// miniprogram/pages/admin/admin.js
+// pages/orderList/orderList.js
 Page({
 
   /**
@@ -7,14 +7,6 @@ Page({
   data: {
 
   },
-
-// 跳转订单列表
-  order: function(options){
-    wx.navigateTo({
-      url: '../orderList/orderList',
-    })
-  },
-
 
   /**
    * 生命周期函数--监听页面加载

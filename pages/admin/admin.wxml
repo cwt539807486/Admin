@@ -27,12 +27,12 @@
         </view>
 
         <button class='btn1'>用户列表</button>
-        <button class='btn1'>订单列表</button>
+        <button class='btn1' bindtap='order'>订单列表</button>
         <button class='btn1'>工人列表</button>
       </view>
       <view style='width:10%'></view>
     </view> 
-  
+  <view class='foot'></view>
 
 
 
