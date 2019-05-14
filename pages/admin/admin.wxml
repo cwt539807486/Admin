@@ -1,11 +1,39 @@
 <!--miniprogram/pages/admin/admin.wxml-->
 <!-- <text>miniprogram/pages/admin/admin.wxml</text> -->
-<view class='admint'>
-  <view class='img'>
-    <image class=''></image>
+
+<view class='conteiner'>
+
+  <view class='admint'>
+    
+    <image class='img'></image>
+    
+    <!-- <view style='width:40%'></view> -->
+    
+    <label class='lab'>Admin</label>
+    
   </view>
-  <view class='lab'>
-    <label class=''>Admin</label>
-  </view>
+
   
+    <view class='lan'></view>
+    
+    <view class='box'>
+      <view style='width:10%'></view>
+      <view class='all'>
+        <view class='gonggao'>
+          <view class='gao1'>
+            <label class='gao1_lab'>公告</label>
+          </view>
+          <view class='gao2'></view>
+        </view>
+
+        <button class='btn1'>用户列表</button>
+        <button class='btn1'>订单列表</button>
+        <button class='btn1'>工人列表</button>
+      </view>
+      <view style='width:10%'></view>
+    </view> 
+  
+
+
+
 </view>
