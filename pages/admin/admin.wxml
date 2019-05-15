@@ -21,14 +21,23 @@
       <view class='all'>
         <view class='gonggao'>
           <view class='gao1'>
-            <label class='gao1_lab'>公告</label>
+            <label class='gao1_lab'><icon class='./iconfont/icon-rili:before'></icon>公告</label>
           </view>
           <view class='gao2'></view>
         </view>
 
-        <button class='btn1'>用户列表</button>
-        <button class='btn1' bindtap='order'>订单列表</button>
-        <button class='btn1'>工人列表</button>
+        <button class='btn1'>
+          <icon class='./iconfont/icon-geren:before'></icon>
+          用户列表
+        </button>
+        <button class='btn1' bindtap='order'>
+          <icon class='./iconfont/icon-dingdan:before'></icon>
+          订单列表
+        </button>
+        <button class='btn1'>
+          <icon class='./iconfont/icon-tongxunlu:before'></icon>
+          工人列表
+        </button>
       </view>
       <view style='width:10%'></view>
     </view> 

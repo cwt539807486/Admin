@@ -4,6 +4,7 @@
   <view class="bus-list js_bus_list ">
     <view data-supplierid="100020" data-key="" class="bus-list-item  ">
       <view class="bus-time"> 2019/5/14 08:25</view>
+      <!-- tobooking监听 -->
       <view class="tobooking"> 详情 </view>
       <view class="detail">
         <view class="detail1">
@@ -78,7 +79,7 @@
     </view>
   </view>
 
-  <include src="../mod/calendar.wxml" />
-  <include src="../../utils/abstract-page.wxml" />
+  <!-- <include src="../mod/calendar.wxml" />
+  <include src="../../utils/abstract-page.wxml" /> -->
 
 </view>
