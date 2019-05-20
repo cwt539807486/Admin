@@ -1,0 +1,56 @@
+/* miniprogram/pages/admin/admin.wxss */
+page{
+  height: 100%;
+}
+.conteiner{
+  background-color: #dbdbdb7a;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.admint{
+  margin: 0px;
+  width: 100%;
+  height: 22%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  background-color: #222121;
+  
+}
+
+.lab{
+  font-size: 22px;
+  text-shadow: 18px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.box{
+  display: flex;
+  width: 100%;
+  height: 78%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.boxinfo{
+  width: 60%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+}
+.tex{
+  margin-top: 20px;
+  align-items: center;
+}
+.foot{
+  width: 100%;
+  height: 10%;
+  /* margin-top: 50px; */
+  background-color:  #222121;
+}

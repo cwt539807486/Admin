@@ -1,0 +1,29 @@
+<!--miniprogram/pages/admin/admin.wxml-->
+<!-- <text>miniprogram/pages/admin/admin.wxml</text> -->
+
+<view class='conteiner'>
+
+  <view class='admint'>
+    
+    <label class='lab'>订单详情</label>
+    
+  </view>
+
+
+    
+  <view class='box'>
+
+    <view class='boxinfo'>
+      <label class='tex'>客户ID:<text>1234567</text></label>
+      <label class='tex'>客户名称:<text>cwt</text></label>
+      <label class='tex'>订单号:<text>654313546544</text></label>
+      <label class='tex'>地址:<text>温州商学院 F区 F4-707 阿飞飞发违法娃娃打我</text></label>
+    </view>
+    
+  </view> 
+
+  <view class='foot'></view>
+
+
+
+</view>
