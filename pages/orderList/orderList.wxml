@@ -5,7 +5,7 @@
     <view data-supplierid="100020" data-key="" class="bus-list-item  ">
       <view class="bus-time"> 2019/5/14 08:25</view>
       <!-- tobooking监听 -->
-      <view class="tobooking"> 详情 </view>
+      <view class="tobooking" bindtap=''> 详情 </view>
       <view class="detail">
         <view class="detail1">
           <view class="start">
@@ -15,10 +15,7 @@
         </view>
         <view class="tags">
           <view>
-            <text class="price">￥135</text>
-          </view>
-          <view>
-            <text class="countleft">10张</text>
+            <text class="countleft">客户名称</text>
           </view>
           <view>
             <text class="b-tags js_tags"></text>
@@ -31,20 +28,18 @@
   <view class="bus-list js_bus_list ">
     <view data-supplierid="100020" data-key="" class="bus-list-item  ">
       <view class="bus-time"> 2019/5/14 08:25</view>
-      <view class="tobooking"> 详情 </view>
+      <!-- tobooking监听 -->
+      <view class="tobooking" bindtap='orderin'> 详情 </view>
       <view class="detail">
         <view class="detail1">
           <view class="start">
-            <text class="icon-circle s-icon1"></text>东莞市南城汽车客运站</view>
-          <view class="end">
-            <text class="icon-circle s-icon2"></text>连州</view>
+            <text class="icon-circle s-icon1"> 地址：</text>地址</view>
+          <!-- <view class="end">
+            <text class="icon-circle s-icon2"></text>连州</view> -->
         </view>
         <view class="tags">
           <view>
-            <text class="price">￥135</text>
-          </view>
-          <view>
-            <text class="countleft">10张</text>
+            <text class="countleft">客户名称</text>
           </view>
           <view>
             <text class="b-tags js_tags"></text>
@@ -53,23 +48,22 @@
       </view>
     </view>
   </view>
+
   <view class="bus-list js_bus_list ">
     <view data-supplierid="100020" data-key="" class="bus-list-item  ">
-      <view class="bus-time">2019/5/14 08:25</view>
+      <view class="bus-time"> 2019/5/14 08:25</view>
+      <!-- tobooking监听 -->
       <view class="tobooking"> 详情 </view>
       <view class="detail">
         <view class="detail1">
           <view class="start">
-            <text class="icon-circle s-icon1"></text>东莞市南城汽车客运站</view>
-          <view class="end">
-            <text class="icon-circle s-icon2"></text>连州</view>
+            <text class="icon-circle s-icon1"> 地址：</text>地址</view>
+          <!-- <view class="end">
+            <text class="icon-circle s-icon2"></text>连州</view> -->
         </view>
         <view class="tags">
           <view>
-            <text class="price">￥135</text>
-          </view>
-          <view>
-            <text class="countleft">10张</text>
+            <text class="countleft">客户名称</text>
           </view>
           <view>
             <text class="b-tags js_tags"></text>
@@ -78,6 +72,8 @@
       </view>
     </view>
   </view>
+
+  
 
   <!-- <include src="../mod/calendar.wxml" />
   <include src="../../utils/abstract-page.wxml" /> -->

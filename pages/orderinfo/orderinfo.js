@@ -1,4 +1,4 @@
-// pages/orderList/orderList.js
+// pages/orderinfo/orderinfo.js
 Page({
 
   /**
@@ -7,15 +7,6 @@ Page({
   data: {
 
   },
-
-  // orderin:function(options){
-  //   wx.navigateTo({
-  //     url: '../orderinfo/orderinfo',
-  //   })
-
-  // },
-
-
 
   /**
    * 生命周期函数--监听页面加载

@@ -23,7 +23,11 @@
           <view class='gao1'>
             <label class='gao1_lab'><icon class='./iconfont/icon-rili:before'></icon>公告</label>
           </view>
-          <view class='gao2'></view>
+          <view class='gao2'>
+          
+          <!-- list -->
+          
+          </view>
         </view>
 
         <button class='btn1'>
