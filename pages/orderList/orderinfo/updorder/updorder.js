@@ -1,4 +1,4 @@
-// pages/orderList/orderList.js
+// pages/orderList/orderinfo/updorder/updorder.js
 Page({
 
   /**
@@ -8,13 +8,28 @@ Page({
 
   },
 
-  orderin:function(options){
-    wx.navigateTo({
-      url: '../orderList/orderinfo/orderinfo',
+  uptcomp: function(options){
+    wx.showModal({
+      title: '完成提示',
+      content: '是否确认修改',
+      success: function(res) {
+        if(res.confirm){
+          console.log('修改完成')
+          wx.navigateBack({
+            
+          })
+        }
+        if (res.cancel) {
+          console.log('取消修改')
+        }
+      },
     })
-
   },
 
+  getDataBindTap: function (e) {
+    var result = e.detail.value;
+    console.log(result)
+  },
 
 
   /**

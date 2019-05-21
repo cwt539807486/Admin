@@ -7,6 +7,27 @@ Page({
   data: {
 
   },
+  delorder: function (options) {
+    wx.showModal({
+      title: '删除提示',
+      content: '是否删除此订单',
+      success: function (res) {
+        if (res.confirm) {
+          console.log('删除成功');
+        }
+        if (res.cancel) {
+          console.log('取消');
+        }
+      }
+    })
+  },
+
+  glorder: function(options){
+    wx.navigateTo({
+      url: '/pages/orderList/orderinfo/updorder/updorder',
+    })
+
+  },
 
   /**
    * 生命周期函数--监听页面加载

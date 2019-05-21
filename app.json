@@ -1,8 +1,9 @@
 {
   "pages": [
-    "pages/orderinfo/orderinfo",
     "pages/admin/admin",
-    "pages/orderList/orderList"
+    "pages/orderList/orderList",
+    "pages/orderList/orderinfo/orderinfo",
+    "pages/orderList/orderinfo/updorder/updorder"
   ],
   "window": {
     "backgroundTextStyle": "light",

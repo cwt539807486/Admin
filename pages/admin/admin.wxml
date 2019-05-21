@@ -42,6 +42,10 @@
           <icon class='./iconfont/icon-tongxunlu:before'></icon>
           工人列表
         </button>
+        <button class='btn1'>
+          <icon class='./iconfont/icon-lingdang:before'></icon>
+          小知识
+        </button>
       </view>
       <view style='width:10%'></view>
     </view> 
