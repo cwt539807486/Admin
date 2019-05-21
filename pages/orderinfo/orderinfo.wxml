@@ -1,3 +1,4 @@
+
 <!--pages/orderinfo/orderinfo.wxml-->
 <!-- <text>pages/orderinfo/orderinfo.wxml</text> -->
 <!--miniprogram/pages/admin/admin.wxml-->
@@ -6,7 +7,6 @@
 <view class='conteiner'>
 
   <view class='admint'>
-    
     <label class='lab'>订单详情</label> 
     
   </view>
@@ -15,22 +15,29 @@
 
     <view class='orid'>
 
-      <label>订单号:<text>1234567</text></label>
+      <label class='tex'>订单号:<text>1234567</text></label>
 
-      <label>用户ID:<text>0001</text></label>
+      <label class='tex'>订单时间:<text>2019-5-21 15:00</text></label>
 
-      <label>用户名称:<text>cwt</text></label>
+      <label class='tex'>用户ID:<text>0001</text></label>
 
-      <label>地址:<text>温州商学院F区 F4-707 阿达的卡卡爱是假的</text></label>
+      <label class='tex'>用户名称:<text>cwt</text></label>
+
+      <label class='tex'>工人ID:<text>0001</text></label>
+
+      <label class='tex'>工人名称:<text>cwt</text></label>
+
+      <label class='tex'>联系方式:<text>15372095456</text></label>
+
+      <label class='tex'>用户名称:<text>cwt</text></label>
+
+      <label class='tex'>地址:<text>温州商学院F区 F4-707</text></label>
+
+      <label class='tex'>简介:<text>测试文字测试文字测试文字测试文字测试文字测试文字测试文字测试文字测试文字测试文字测试文字测试文字测试文字测试文字</text></label>
       
       
     </view>
-    
-    
-     
   </view> 
+
   <view class='foot'></view>
-
-
-
 </view>
