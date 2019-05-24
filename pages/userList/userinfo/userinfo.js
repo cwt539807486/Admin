@@ -1,4 +1,4 @@
-// miniprogram/pages/admin/admin.js
+// pages/userList/userinfo/userinfo.js
 Page({
 
   /**
@@ -6,31 +6,6 @@ Page({
    */
   data: {
 
-  },
-
-// 跳转订单列表
-  order: function(options){
-    wx.navigateTo({
-      url: '../orderList/orderList',
-    })
-  },
-
-  user: function(options){
-    wx.navigateTo({
-      url: '../userList/userList',
-    })
-  },
-
-  staff: function (options) {
-    wx.navigateTo({
-      url: '../staffList/staffList',
-    })
-  },
-
-  tips: function (options) {
-    wx.navigateTo({
-      url: '../tipsList/tipsList',
-    })
   },
 
   /**

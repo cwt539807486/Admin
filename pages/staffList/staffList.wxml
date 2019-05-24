@@ -1,29 +1,31 @@
 <!--pages/orderList/orderList.wxml-->
 
+
 <view class="page-wrapper ">
+  
 
   <view class='page_hd admint'>
     <view class='a'>
-      <label class='lab'>订单列表</label> 
+      <label class='lab'>工人列表</label> 
     </view>
   </view>
 
   <view class='box'>
     <view class="bus-list js_bus_list ">
       <view data-supplierid="100020" data-key="" class="bus-list-item  ">
-        <view class="bus-time"> 2019/5/14 08:25</view>
+        <view class="bus-time"> ID</view>
         <!-- tobooking监听 -->
         <view class="tobooking" bindtap='orderin'> 详情 </view>
         <view class="detail">
           <view class="detail1">
             <view class="start">
-              <text class="icon-circle s-icon1"> 地址：</text>地址</view>
-            <!-- <view class="end">
-              <text class="icon-circle s-icon2"></text>连州</view> -->
+
+              工人名称:<text class="icon-circle s-icon1"> cwt</text></view>
+
           </view>
           <view class="tags">
             <view>
-              <text class="countleft">客户名称</text>
+              <text class="countleft">电话</text>
             </view>
             <view>
               <text class="b-tags js_tags"></text>
@@ -35,19 +37,19 @@
 
     <view class="bus-list js_bus_list ">
       <view data-supplierid="100020" data-key="" class="bus-list-item  ">
-        <view class="bus-time"> 2019/5/14 08:25</view>
+        <view class="bus-time"> ID</view>
         <!-- tobooking监听 -->
         <view class="tobooking" bindtap='orderin'> 详情 </view>
         <view class="detail">
           <view class="detail1">
             <view class="start">
-              <text class="icon-circle s-icon1"> 地址：</text>地址</view>
-            <!-- <view class="end">
-              <text class="icon-circle s-icon2"></text>连州</view> -->
+
+              客户名称:<text class="icon-circle s-icon1"> cwt</text></view>
+
           </view>
           <view class="tags">
             <view>
-              <text class="countleft">客户名称</text>
+              <text class="countleft">电话</text>
             </view>
             <view>
               <text class="b-tags js_tags"></text>
@@ -59,19 +61,19 @@
 
     <view class="bus-list js_bus_list ">
       <view data-supplierid="100020" data-key="" class="bus-list-item  ">
-        <view class="bus-time"> 2019/5/14 08:25</view>
+        <view class="bus-time"> ID</view>
         <!-- tobooking监听 -->
-        <view class="tobooking"> 详情 </view>
+        <view class="tobooking" bindtap='orderin'> 详情 </view>
         <view class="detail">
           <view class="detail1">
             <view class="start">
-              <text class="icon-circle s-icon1"> 地址：</text>地址</view>
-            <!-- <view class="end">
-              <text class="icon-circle s-icon2"></text>连州</view> -->
+
+              客户名称:<text class="icon-circle s-icon1"> cwt</text></view>
+
           </view>
           <view class="tags">
             <view>
-              <text class="countleft">客户名称</text>
+              <text class="countleft">电话</text>
             </view>
             <view>
               <text class="b-tags js_tags"></text>
@@ -81,8 +83,7 @@
       </view>
     </view>
 
-</view>
-  
+  </view>
 
   <!-- <include src="../mod/calendar.wxml" />
   <include src="../../utils/abstract-page.wxml" /> -->

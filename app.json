@@ -3,7 +3,11 @@
     "pages/admin/admin",
     "pages/orderList/orderList",
     "pages/orderList/orderinfo/orderinfo",
-    "pages/orderList/orderinfo/updorder/updorder"
+    "pages/orderList/orderinfo/updorder/updorder",
+    "pages/userList/userList",
+    "pages/userList/userinfo/userinfo",
+    "pages/staffList/staffList",
+    "pages/tipsList/tipsList"
   ],
   "window": {
     "backgroundTextStyle": "light",
