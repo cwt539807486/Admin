@@ -8,6 +8,12 @@ Page({
 
   },
 
+  orderin: function (options) {
+    wx.navigateTo({
+      url: '../tipsList/tipsinfo/tipsinfo',
+    })
+
+  },
   /**
    * 生命周期函数--监听页面加载
    */

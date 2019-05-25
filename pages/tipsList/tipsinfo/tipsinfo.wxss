@@ -79,7 +79,7 @@ page{
   text-align: center;
 }
 .dlbtn{
-  width: 100%;
+  width: 30%;
   height: 100%;
   color: #ffffff;
   text-align: center;

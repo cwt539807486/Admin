@@ -1,17 +1,10 @@
-// pages/staffList/staffList.js
+// pages/userList/userinfo/upduser/upduser.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-
-  },
-
-  orderin: function (options) {
-    wx.navigateTo({
-      url: '../staffList/staffinfo/staffinfo',
-    })
 
   },
 

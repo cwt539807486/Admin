@@ -7,7 +7,13 @@
     "pages/userList/userList",
     "pages/userList/userinfo/userinfo",
     "pages/staffList/staffList",
-    "pages/tipsList/tipsList"
+    "pages/tipsList/tipsList",
+    "pages/userList/userinfo/upduser/upduser",
+    "pages/staffList/staffinfo/staffinfo",
+    "pages/staffList/staffinfo/updstaff/updstaff",
+    "pages/tipsList/tipsinfo/tipsinfo",
+    "pages/tipsList/tipsinfo/updtips/updtips",
+    "pages/tipsList/addtips/addtips"
   ],
   "window": {
     "backgroundTextStyle": "light",

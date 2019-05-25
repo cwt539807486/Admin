@@ -5,8 +5,13 @@
   
 
   <view class='page_hd admint'>
-    <view class='a'>
-      <label class='lab'>知识列表</label> 
+    <view class='ab'>
+      <view class='a'>
+        <label class='lab'>知识列表</label> 
+      </view>
+      <view class='b'>
+        <view class='c'>➕</view>
+      </view>
     </view>
   </view>
 

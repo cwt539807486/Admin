@@ -1,0 +1,28 @@
+
+<view class='conteiner'>
+
+  <view class='admint'>
+    <label class='lab'>管理订单</label> 
+    
+  </view>
+
+  <view class='box'>
+
+    <scroll-view class='orid' scroll-y style="height: 100%">
+      <view class='onid'>
+        <view class='inorid'>
+
+          <label class='tex'>修改简介:</label>
+          <textarea class="textarea-bg" placeholder="请输入内容" bindblur="getDataBindTap" auto-height ></textarea>
+          
+        </view>
+      </view>
+    </scroll-view>
+  </view> 
+
+  <view class='foot'>
+    <view class='footer'>
+      <view class='okbtn' bindtap='uptcomp'>完成</view>
+    </view>
+  </view>
+</view>

@@ -35,54 +35,7 @@
       </view>
     </view>
 
-    <view class="bus-list js_bus_list ">
-      <view data-supplierid="100020" data-key="" class="bus-list-item  ">
-        <view class="bus-time"> ID</view>
-        <!-- tobooking监听 -->
-        <view class="tobooking" bindtap='orderin'> 详情 </view>
-        <view class="detail">
-          <view class="detail1">
-            <view class="start">
-
-              客户名称:<text class="icon-circle s-icon1"> cwt</text></view>
-
-          </view>
-          <view class="tags">
-            <view>
-              <text class="countleft">电话</text>
-            </view>
-            <view>
-              <text class="b-tags js_tags"></text>
-            </view>
-          </view>
-        </view>
-      </view>
-    </view>
-
-    <view class="bus-list js_bus_list ">
-      <view data-supplierid="100020" data-key="" class="bus-list-item  ">
-        <view class="bus-time"> ID</view>
-        <!-- tobooking监听 -->
-        <view class="tobooking" bindtap='orderin'> 详情 </view>
-        <view class="detail">
-          <view class="detail1">
-            <view class="start">
-
-              客户名称:<text class="icon-circle s-icon1"> cwt</text></view>
-
-          </view>
-          <view class="tags">
-            <view>
-              <text class="countleft">电话</text>
-            </view>
-            <view>
-              <text class="b-tags js_tags"></text>
-            </view>
-          </view>
-        </view>
-      </view>
-    </view>
-
+    
   </view>
 
   <!-- <include src="../mod/calendar.wxml" />

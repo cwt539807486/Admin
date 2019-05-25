@@ -59,6 +59,21 @@ page{
 .tex{
   margin-top: 20px;
 }
+/* .jianjie{
+  width: 100%;
+  height: 200px;
+  border-bottom: 1px #222121;
+} */
+
+.textarea-bg {
+  width: 100%;
+  background-color: #fff;
+  padding: 10rpx;
+  font-size: 32rpx;
+  border: 2px inset gold;
+}
+
+
 
 .foot{
   line-height: 100rpx;
@@ -72,16 +87,9 @@ page{
   flex-direction: row;
 
 }
-.glbtn{
-  width: 70%;
-  height: 100%;
-  color: #ffffff;
-  text-align: center;
-}
-.dlbtn{
+.okbtn{
   width: 100%;
   height: 100%;
   color: #ffffff;
   text-align: center;
-  background-color: #b80404
 }

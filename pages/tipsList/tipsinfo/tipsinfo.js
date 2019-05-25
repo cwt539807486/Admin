@@ -1,4 +1,4 @@
-// pages/staffList/staffList.js
+// pages/tipsList/tipsinfo/tipsinfo.js
 Page({
 
   /**
@@ -8,13 +8,28 @@ Page({
 
   },
 
-  orderin: function (options) {
+
+  delorder: function (options) {
+    wx.showModal({
+      title: '删除提示',
+      content: '是否删除此订单',
+      success: function (res) {
+        if (res.confirm) {
+          console.log('删除成功');
+        }
+        if (res.cancel) {
+          console.log('取消');
+        }
+      }
+    })
+  },
+
+  glorder: function (options) {
     wx.navigateTo({
-      url: '../staffList/staffinfo/staffinfo',
+      url: '/pages/tipsList/tipsinfo/updtips/updtips',
     })
 
   },
-
   /**
    * 生命周期函数--监听页面加载
    */

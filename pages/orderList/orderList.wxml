@@ -3,8 +3,10 @@
 <view class="page-wrapper ">
 
   <view class='page_hd admint'>
-    <view class='a'>
-      <label class='lab'>订单列表</label> 
+    <view class='ab'>
+      <view class='a'>
+        <label class='lab'>订单列表</label> 
+      </view>
     </view>
   </view>
 

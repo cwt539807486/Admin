@@ -21,7 +21,8 @@
 }
 .a{
    display: flex;
-   line-height: 150rpx;
+   /* line-height: 150rpx; */
+   align-items: center;
    justify-content: center;
 }
 .lab{
