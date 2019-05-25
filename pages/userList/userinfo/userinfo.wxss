@@ -58,6 +58,7 @@ page{
 }
 .tex{
   margin-top: 20px;
+  font-style: "宋体"；
 }
 
 .foot{

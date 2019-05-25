@@ -10,19 +10,19 @@
 
     <scroll-view class='orid' scroll-y style="height: 100%">
       <view class='onid'>
+      
         <view class='inorid'>
+            <label class='tex'>用户ID:<text>{{usid}}</text></label>
 
-          <label class='tex'>用户ID:<text>0001</text></label>
+            <label class='tex'>用户名称:<text>{{usame}}</text></label>
 
-          <label class='tex'>用户名称:<text>cwt</text></label>
+            <label class='tex'>联系方式:<text>{{usphe}}</text></label>
 
-          <label class='tex'>联系方式:<text>15372095456</text></label>
+            <label class='tex'>地址:<text>{{usadd}}</text></label>
 
-          <label class='tex'>地址:<text>温州商学院F区 F4-707</text></label>
-
-          <label class='tex'>简介:<text>测试文字测试文字测试文字测试文字测试文字测试文字测试文字测试文字测试文字测试文字测试文字测试文字测试文字测试文字</text></label>
-
+            <label class='tex'>简介:<text>{{usinf}}</text></label>
         </view>
+      
       </view>
       
     </scroll-view>

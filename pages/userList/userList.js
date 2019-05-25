@@ -5,12 +5,16 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    userlist:[]
   },
 
   orderin: function (options) {
+
+    var id = options.currentTarget.dataset.id;
+    console.log(id);
     wx.navigateTo({
-      url: '../userList/userinfo/userinfo',
+      
+      url: '../userList/userinfo/userinfo?id='+id,
     })
 
   },
@@ -18,6 +22,26 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
+
+    var that = this//不要漏了这句，很重要
+    wx.request({
+      url: 'http://localhost:8080/user/selectAll',
+      method: 'GET',
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      success: function (res) {
+        console.log("调用API成功");
+        console.log(res.data);
+
+        //将获取到的json数据，存在名字叫zhihu的这个数组中
+        that.setData({
+          items: res.data,
+          
+
+        })
+      }
+    })
 
   },
 
