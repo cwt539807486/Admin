@@ -12,7 +12,7 @@
 }
 .admint{
   width:100%;
-  height:70px;
+  height:13%;
   z-index: 2;
   background-color:#222121;
   position:fixed;
@@ -38,7 +38,7 @@
    /* line-height: 150rpx; */
    align-items: center;
    justify-content: center;
-   font-size: 20px;
+   /* font-size: 20px; */
    color: #ffffff;
    /* box-shadow: 3px 3px 3px 3px #ffffff inset, */
 }
@@ -47,7 +47,7 @@
    line-height: 150rpx;
    align-items: center;
    justify-content: center;
-   font-size: 20px;
+   font-size: 150%;
    width: 80%;
    height: 80%;
    border: 1px solid #ffffff;
@@ -63,7 +63,7 @@
 .box{
   width: 100%;
   height: 80%;
-  margin-top: 80px;
+  margin-top: 23%;
 }
 
 

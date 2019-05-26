@@ -31,7 +31,7 @@
   <view class='foot'>
     <view class='footer'>
       <!-- <view class='glbtn' bindtap='glorder'>管理用户</view> -->
-      <view class='dlbtn' bindtap='delorder'>删除用户</view>
+      <view class='dlbtn' bindtap='delorder' data-id='{{usid}}'>删除用户</view>
     </view>
   </view>
 </view>

@@ -12,7 +12,7 @@
 }
 .admint{
   width:100%;
-  height:70px;
+  height:13%;
   z-index: 2;
   background-color:#222121;
   position:fixed;
@@ -35,7 +35,7 @@
 .box{
   width: 100%;
   height: 80%;
-  margin-top: 80px;
+  margin-top: 23%;
 }
 
 
@@ -83,7 +83,7 @@
  margin: 60rpx 0;
  color: #333333;
  text-align: center;
- font-size: 11px;
+ font-size: 18px;
  font-family: Arial;
  border-right: 2rpx dashed #e5e5e5;
 }

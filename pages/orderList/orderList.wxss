@@ -13,7 +13,7 @@
 
 .admint{
   width:100%;
-  height:70px;
+  height:13%;
   z-index: 2;
   background-color:#222121;
   position:fixed;
@@ -45,7 +45,7 @@
 .box{
   width: 100%;
   height: 80%;
-  margin-top: 80px;
+  margin-top: 23%;
 }
 
 
