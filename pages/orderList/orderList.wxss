@@ -13,7 +13,7 @@
 
 .admint{
   width:100%;
-  height:13%;
+  height:20%;
   z-index: 2;
   background-color:#222121;
   position:fixed;
@@ -22,7 +22,7 @@
 }
 .ab{
   width: 100%;
-  height: 100%;
+  height: 70%;
   display: flex;
    /* line-height: 150rpx; */
    align-items: center;
@@ -42,10 +42,26 @@
   color: #ffffff;
 }
 
+.btnbox{
+  width: 100%;
+  height: 30%;
+}
+
+.flexs-item button {
+  height: 32px;
+  box-sizing: border-box;
+  text-align: center;
+  margin: 10px 0 0 0;
+  min-width: 50px;
+  font-size: 16px;
+  line-height: 32px;
+}
+
+
 .box{
   width: 100%;
-  height: 80%;
-  margin-top: 23%;
+  height: 65%;
+  margin-top: 33%;
 }
 
 

@@ -13,7 +13,9 @@
     "pages/staffList/staffinfo/updstaff/updstaff",
     "pages/tipsList/tipsinfo/tipsinfo",
     "pages/tipsList/tipsinfo/updtips/updtips",
-    "pages/tipsList/addtips/addtips"
+    "pages/tipsList/addtips/addtips",
+    "pages/orderList2/orderList2",
+    "pages/orderList3/orderList3"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -21,5 +23,6 @@
     "navigationBarTitleText": "管理员",
     "navigationBarTextStyle": "black"
   },
+
   "sitemapLocation": "sitemap.json"
 }
