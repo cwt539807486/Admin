@@ -9,19 +9,22 @@ Page({
   },
 
   orderin: function (options) {
-    wx.navigateTo({
-      url: '../staffList/staffinfo/staffinfo',
-    })
 
+    var id = options.currentTarget.dataset.id;
+    console.log(id);
+    wx.navigateTo({
+
+      url: '../staffList/staffinfo/staffinfo?id=' + id,
+    })
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    var that = this//不要漏了这句，很重要
+    var that = this
     wx.request({
-      url: 'http://localhost:8080/user/selectAll',
+      url: 'http://localhost:8080/fix/selectAllfix',
       method: 'GET',
       headers: {
         'Content-Type': 'application/json'
@@ -51,7 +54,8 @@ Page({
    * 生命周期函数--监听页面显示
    */
   onShow: function () {
-
+    this.onLoad();
+    console.log("成功刷新页面");
   },
 
   /**

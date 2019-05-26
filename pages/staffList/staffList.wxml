@@ -12,28 +12,29 @@
 
   <view class='box'>
     <view class="bus-list js_bus_list ">
-      <block>
+
+      <block wx:for="{{items}}">
         <view class="bus-list-item  ">
-          <view class="bus-time"> ID</view>
+          <view class="bus-time">{{item.fixid}}</view>
           <!-- tobooking监听 -->
-          <view class="tobooking" bindtap='orderin'> 详情 </view>
+          <view class="tobooking" bindtap='orderin' data-id="{{item.fixid}}"> 详情 </view>
           <view class="detail">
             <view class="detail1">
               <view class="start">
 
-                工人名称:<text class="icon-circle s-icon1"> cwt</text></view>
+                工人名称:<text class="icon-circle s-icon1">{{item.fixName}}</text></view>
 
             </view>
             <view class="tags">
               <view>
-                <text class="countleft">电话</text>
+                <text class="countleft">联系电话:{{item.fixPhone}}</text>
               </view>
               <view>
                 <text class="b-tags js_tags"></text>
               </view>
             </view>
           </view>
-          </view>
+        </view>
       </block>
 
     </view>

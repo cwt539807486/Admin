@@ -157,7 +157,7 @@
 }
 
 .bus-list .bus-list-item .tags {
-    width: 160rpx;
+    width: 450rpx;
     text-align: right;
     position: absolute;
     right: 0;
