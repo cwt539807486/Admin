@@ -5,7 +5,35 @@ Page({
    * 页面的初始数据
    */
   data: {
-    id:''
+    list: [
+      {
+        id: 0,
+        title: "全部",
+        stock: 1,
+        status:-1
+      },
+      {
+        id: 1,
+        title: "未分配",
+        stock: 2,
+        status: 0
+      },
+      {
+        id: 2,
+        title: "维修中",
+        stock: 3,
+        status: 1
+      },
+      {
+        id: 3,
+        title: "已完成",
+        stock: 4,
+        status: 2
+      },
+    ],
+    // 当前选中的号码
+    current_tag: 0,
+    statusr:-1
   },
 
   orderin:function(options){
@@ -15,26 +43,42 @@ Page({
 
   },
 
-  changeGroup: function (event) {
-    var id = event.currentTarget.dataset.id;
-    
+  clickedAction: function (responseObject) {
+    let that = this;
+    var id = responseObject.currentTarget.dataset.id;  //获取自定义的ID值 
+    console.log("current_tag", id)
     this.setData({
-      id: id
-    });
-},
+      current_tag: id,
+    })
 
+    if (id == 0) {
+      console.log("current_tag", id)
+      that.setData({
+        statusr: -1
+      })
+
+    } else if(id == 2){
+      that.setData({
+        statusr: 1
+      })
+    }else if(id == 3){
+      that.setData({
+        statusr: 2
+      })
+    }else if(id == 1){
+      that.setData({
+        statusr: 0
+      })
+    }
+
+
+  },
 
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-
-
-
-
-
-////////////////////
 
     var that = this//不要漏了这句，很重要
     wx.request({

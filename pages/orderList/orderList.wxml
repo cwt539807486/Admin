@@ -9,11 +9,12 @@
       </view>
     </view>
     <view class='btnbox'>
-      <view wx:for="{{Object}}" wx:key="Object" wx:for-index="key" wx:for-item="value">
-        <view class='flexs-item'>
-          <button></button>
-        </view>
-      </view>
+      
+<block wx:for="{{list}}" wx:key="{{index}}">
+<view wx:if="{{item.stock > 0}}" class="{{index == current_tag?'flag-item2':'flag-item1'}}" bindtap="clickedAction" data-id="{{index}}"> <text>{{item.title}} </text></view> 
+  </block>
+
+
     </view>
 
   </view>
@@ -21,7 +22,7 @@
   <view class='box'>
     <view class="bus-list js_bus_list ">
 
-<block wx:for="{{items}}" wx:if="{{item.employStatus==0}}">
+<block wx:for="{{items}}" wx:if="{{item.employStatus==statusr}}">
       <view class="bus-list-item  ">
         <view class="bus-time">{{item.employTime}}</view>
         <!-- tobooking监听 -->
@@ -34,8 +35,20 @@
               <text class="icon-circle s-icon2"></text>连州</view> -->
           </view>
           <view class="tags">
-            <view>
-              <text class="countleft">客户ID:{{item.userid}}</text>
+            <view class='tagin'>
+              <!-- <text class="countleft">客户ID:{{item.userid}}</text> -->
+              <view wx:if="{{item.employStatus==0}}">
+                <view class='colorDiv-submit'></view>
+                <text>未分配</text>
+              </view>
+              <view wx:elif="{{item.employStatus==1}}">
+                <view class='colorDiv-ing'></view>
+                <text>维修中</text>
+              </view>
+              <view wx:elif="{{item.employStatus==2}}">
+                <view class='colorDiv-final'></view>
+                <text>已完成</text>
+              </view>
             </view>
             <view>
               <text class="b-tags js_tags"></text>
@@ -44,6 +57,45 @@
         </view>
         </view>
       </block>
+      <block wx:for="{{items}}" wx:if="{{current_tag == 0 && statusr == -1}}">
+      <view class="bus-list-item">
+        <view class="bus-time">{{item.employTime}}</view>
+        <!-- tobooking监听 -->
+        <view class="tobooking" bindtap='orderin' data-id2="{{item.emplyid}}"> 详情 </view>
+        <view class="detail">
+          <view class="detail1">
+            <view class="start">
+              <text class="icon-circle s-icon1"> 地址：</text>{{item.employAddress}}</view>
+            <!-- <view class="end">
+              <text class="icon-circle s-icon2"></text>连州</view> -->
+          </view>
+          <view class="tags">
+            <view class='tagin'>
+              <!-- <text class="countleft">客户ID:{{item.userid}}</text> -->
+              <view wx:if="{{item.employStatus==0}}">
+                <view class='colorDiv-submit'></view>
+                <text>未分配</text>
+              </view>
+              <view wx:elif="{{item.employStatus==1}}">
+                <view class='colorDiv-ing'></view>
+                <text>维修中</text>
+              </view>
+              <view wx:elif="{{item.employStatus==2}}">
+                <view class='colorDiv-final'></view>
+                <text>已完成</text>
+              </view>
+            </view>
+            <view>
+              <text class="b-tags js_tags"></text>
+            </view>
+          </view>
+        </view>
+        </view>
+      </block>
+
+
+
+
       </view>
 
     </view>
