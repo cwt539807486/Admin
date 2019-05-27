@@ -1,0 +1,68 @@
+<!--pages/orderList/orderList.wxml-->
+
+
+<view class="page-wrapper ">
+  
+
+  <view class='page_hd admint'>
+    <view class='a'>
+      <label class='lab'>维修分配</label> 
+    </view>
+  </view>
+
+  <view class='box'>
+    <view class="bus-list js_bus_list ">
+
+      <block wx:for="{{items}}">
+        <view class="bus-list-item  ">
+          <view class="bus-time">{{item.fixid}}</view>
+          <!-- tobooking监听 -->
+          <view class="tobooking" bindtap='orderin' data-id="{{item.fixid}}"> 详情 </view>
+          <view class="towant" bindtap='want' data-ied="{{item.fixid}}"> 选择 </view>
+          <view class="detail">
+            <view class="detail1">
+              <view class="start">
+
+                工人名称:<text class="icon-circle s-icon1">{{item.fixName}}</text></view>
+
+            </view>
+            <view class="tags">
+              <view>
+                <text class="countleft">联系电话:{{item.fixPhone}}</text>
+              </view>
+              <view>
+                <text class="b-tags js_tags"></text>
+              </view>
+            </view>
+          </view>
+        </view>
+      </block>
+
+    </view>
+  </view>
+
+    
+
+<!--   ///////////////弹窗////////////////////    -->
+
+<modal hidden="{{hiddenmodalput}}" title="详细信息" confirm-text="确定" bindconfirm="confirmM" no-cancel="true">
+
+            <label class='tex'>工人ID:<text>{{fxid}}
+            </text></label>
+
+            <label class='tex'>工人名称:<text>{{fxame}}
+            </text></label>
+
+            <label class='tex'>联系方式:<text>{{fxphe}}
+            </text></label>
+
+            <label class='tex'>工人等级:<text>{{fxgrd}}
+            </text></label>
+
+            <label class='tex'>简介:<text>{{fxinf}}</text>\r\n</label>
+</modal>
+
+
+<!--   ///////////////////////////////////    -->
+
+</view>

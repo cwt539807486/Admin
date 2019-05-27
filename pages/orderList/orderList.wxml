@@ -26,7 +26,7 @@
       <view class="bus-list-item  ">
         <view class="bus-time">{{item.employTime}}</view>
         <!-- tobooking监听 -->
-        <view class="tobooking" bindtap='orderin' data-id2="{{item.emplyid}}"> 详情 </view>
+        <view class="tobooking" bindtap='orderin' data-emp="{{item.employid}}"> 详情 </view>
         <view class="detail">
           <view class="detail1">
             <view class="start">
@@ -61,7 +61,7 @@
       <view class="bus-list-item">
         <view class="bus-time">{{item.employTime}}</view>
         <!-- tobooking监听 -->
-        <view class="tobooking" bindtap='orderin' data-id2="{{item.emplyid}}"> 详情 </view>
+        <view class="tobooking" bindtap='orderin' data-emp="{{item.employid}}"> 详情 </view>
         <view class="detail">
           <view class="detail1">
             <view class="start">

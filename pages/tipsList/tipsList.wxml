@@ -17,20 +17,22 @@
 
   <view class='box'>
     <view class="bus-list js_bus_list ">
-      <view data-supplierid="100020" data-key="" class="bus-list-item  ">
-        <view class="bus-time"> ID</view>
+
+    <block wx:for="{{items}}">
+      <view class="bus-list-item  ">
+        <view class="bus-time">{{item.knowid}}</view>
         <!-- tobooking监听 -->
         <view class="tobooking" bindtap='orderin'> 详情 </view>
         <view class="detail">
           <view class="detail1">
             <view class="start">
 
-              标题:<text class="icon-circle s-icon1"> cwt</text></view>
+              标题:<text class="icon-circle s-icon1">{{item.knowImg}}</text></view>
 
           </view>
           <view class="tags">
             <view>
-              <text class="countleft">日期</text>
+              <text class="countleft">{{item.submitTime}}</text>
             </view>
             <view>
               <text class="b-tags js_tags"></text>
@@ -38,55 +40,10 @@
           </view>
         </view>
       </view>
+      </block>
     </view>
 
-    <view class="bus-list js_bus_list ">
-      <view data-supplierid="100020" data-key="" class="bus-list-item  ">
-        <view class="bus-time"> ID</view>
-        <!-- tobooking监听 -->
-        <view class="tobooking" bindtap='orderin'> 详情 </view>
-        <view class="detail">
-          <view class="detail1">
-            <view class="start">
-
-              客户名称:<text class="icon-circle s-icon1"> cwt</text></view>
-
-          </view>
-          <view class="tags">
-            <view>
-              <text class="countleft">电话</text>
-            </view>
-            <view>
-              <text class="b-tags js_tags"></text>
-            </view>
-          </view>
-        </view>
-      </view>
-    </view>
-
-    <view class="bus-list js_bus_list ">
-      <view data-supplierid="100020" data-key="" class="bus-list-item  ">
-        <view class="bus-time"> ID</view>
-        <!-- tobooking监听 -->
-        <view class="tobooking" bindtap='orderin'> 详情 </view>
-        <view class="detail">
-          <view class="detail1">
-            <view class="start">
-
-              客户名称:<text class="icon-circle s-icon1"> cwt</text></view>
-
-          </view>
-          <view class="tags">
-            <view>
-              <text class="countleft">电话</text>
-            </view>
-            <view>
-              <text class="b-tags js_tags"></text>
-            </view>
-          </view>
-        </view>
-      </view>
-    </view>
+   
 
   </view>
 

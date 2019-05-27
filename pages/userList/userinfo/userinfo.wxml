@@ -20,7 +20,7 @@
 
             <label class='tex'>地址:<text>{{usadd}}</text></label>
 
-            <label class='tex'>简介:<text>{{usinf}}</text></label>
+            <!-- <label class='tex'>简介:<text>{{usinf}}</text></label> -->
         </view>
       
       </view>

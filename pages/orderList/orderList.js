@@ -37,9 +37,13 @@ Page({
   },
 
   orderin:function(options){
+    var empid = options.currentTarget.dataset.emp;
+    console.log(empid);
     wx.navigateTo({
-      url: '../orderList/orderinfo/orderinfo',
+
+      url: '../orderList/orderinfo/orderinfo?id=' + empid,
     })
+    
 
   },
 
@@ -111,7 +115,8 @@ Page({
    * 生命周期函数--监听页面显示
    */
   onShow: function () {
-
+    this.onLoad();
+    console.log("成功刷新页面");
   },
 
   /**
