@@ -5,7 +5,7 @@
 
   <view class='admint'>
     
-    <image class='img'></image>
+    <image class='img' src="../img/123.jpeg"></image>
     
     <!-- <view style='width:40%'></view> -->
     
@@ -19,17 +19,17 @@
     <view class='box'>
       <view style='width:10%'></view>
       <view class='all'>
-        <view class='gonggao'>
+        <!-- <view class='gonggao'>
           <view class='gao1'>
             <label class='gao1_lab'><icon class='./iconfont/icon-rili:before'></icon>公告</label>
           </view>
           <view class='gao2'>
           
-          <!-- list -->
+         
           
           </view>
-        </view>
-
+        </view> -->
+        <label>管理员功能：</label>
         <button class='btn1' bindtap='user'>
           <icon class='./iconfont/icon-geren:before'></icon>
           用户列表
